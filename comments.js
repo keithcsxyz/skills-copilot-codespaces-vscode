@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
-// create a simple web server
+// Create web server
 // using Express.js to handle requests and responses
 // and listen on port 3000 for incoming connections
 // This server responds with "Hello World!" when accessed at the root URL
